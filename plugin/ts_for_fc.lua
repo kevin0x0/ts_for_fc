@@ -4,6 +4,6 @@ config.fc = {
     url = "https://github.com/kevin0x0/tree-sitter-fc",
     files = { "src/parser.c" },
     branch = "main",
-    -- requires_generate_from_grammar = false, -- if folder contains pre-generated src/parser.c
+    requires_generate_from_grammar = true, -- if folder contains pre-generated src/parser.c
   }
 }
