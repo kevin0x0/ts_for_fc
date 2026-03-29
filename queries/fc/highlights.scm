@@ -52,11 +52,22 @@
   "(")
 
 (function_call_expression
-  (path) @function.call
+  (path
+      "::"
+     (identifier) @function.call)
   "(")
 
 (function_call_expression
-  (instantiation) @function.call
+  (instantiation
+    (path 
+      "::"
+      (identifier) @function.call))
+  "(")
+
+(function_call_expression
+  (instantiation
+    (identifier) @function.call
+    "::")
   "(")
 
 (function_call_expression
