@@ -1,5 +1,5 @@
 local config = require "nvim-treesitter.parsers".get_parser_configs()
-config.klang = {
+config.fc = {
   install_info = {
     url = "https://github.com/kevin0x0/tree-sitter-fc",
     files = { "src/parser.c" },
