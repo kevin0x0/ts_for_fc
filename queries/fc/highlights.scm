@@ -6,6 +6,7 @@
 (float_literal) @number
 (boolean_literal) @boolean
 (wildcard) @constant.builtin
+[ "true" "false" ] @constant.builtin
 (binding_identifier) @variable.parameter
 
 ; Keywords
